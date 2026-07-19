@@ -7,10 +7,10 @@
 
   const projects = [
     {
-      title: "Xuanverse Archive",
-      description: "A Wuxia-themed digital library cataloging Canons of Forest Edge Town and Canglan Archipelago, featuring real-time fast fuzzy search.",
-      tags: ["SvelteKit", "IndexedDB", "Vanilla CSS"],
-      link: "#"
+      title: "SkyFlow Weather",
+      description: "A premium glassmorphic weather platform showcasing real-time meteorological tracking, dynamic weather-based particle systems, and multi-city forecasting.",
+      tags: ["SvelteKit", "API Integration", "CSS Animations"],
+      link: "/weather"
     },
     {
       title: "Atmosphere Engine",
