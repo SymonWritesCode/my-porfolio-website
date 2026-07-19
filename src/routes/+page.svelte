@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import Navbar from '../components/Navbar.svelte';
   import Hero from '../components/Hero.svelte';
   import ProjectCard from '../components/ProjectCard.svelte';
@@ -10,7 +11,7 @@
       title: "SkyFlow Weather",
       description: "A premium glassmorphic weather platform showcasing real-time meteorological tracking, dynamic weather-based particle systems, and multi-city forecasting.",
       tags: ["SvelteKit", "API Integration", "CSS Animations"],
-      link: "/weather"
+      link: `${base}/weather`
     },
     {
       title: "Atmosphere Engine",
